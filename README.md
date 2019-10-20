@@ -4,6 +4,17 @@
 Started this project with the intent to feed finger tip coordinates into some kind of classifier
 (bayes, NN, RNN for video) to detect gestures without running an entire CNN on an image, or maybe doing an ensemble .
 
+## I just want to play with it, how do I use this?
+
+```
+pip install -r requirements.txt
+python preprocess.py
+```
+
+Click on your hand in the "hsv" window to sample skin color.
+A maximum of 10 samples will be stored and the oldest sample is discarded once the limit is hit. 
+A minimum of 3 samples is required before the actual detection starts getting processed.
+
 ## Improvements I want to make
 - face removal (figure out WHICH contour is the most hand-like one) 
 - ideas to automatically find skin color even in somewhat dynamic lighting
