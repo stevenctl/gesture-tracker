@@ -4,6 +4,9 @@
 Started this project with the intent to feed finger tip coordinates into some kind of classifier
 (bayes, NN, RNN for video) to detect gestures without running an entire CNN on an image, or maybe doing an ensemble .
 
+
+![really bad photo/demo](https://i.imgur.com/aRgs8LI.png)
+
 ## I just want to play with it, how do I use this?
 
 ```
@@ -36,5 +39,3 @@ A minimum of 3 samples is required before the actual detection starts getting pr
 - TV remote
 - AR/VR desktop control (add eye tracking and stuff)
 - lightweight general purpose gesture detector API
-
-![really bad photo/demo](https://i.imgur.com/aRgs8LI.png)
