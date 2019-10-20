@@ -25,3 +25,5 @@ Started this project with the intent to feed finger tip coordinates into some ki
 - TV remote
 - AR/VR desktop control (add eye tracking and stuff)
 - lightweight general purpose gesture detector API
+
+![really bad photo/demo](https://i.imgur.com/aRgs8LI.png)
